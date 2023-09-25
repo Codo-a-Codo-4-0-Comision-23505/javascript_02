@@ -5,13 +5,13 @@ switch (mes_nacimiento) {
         alert("Esto es enero")
         break;
     case "2":
-        alert("Esto es enero")
+        alert("Esto es febrero")
         break;
     case "3":
-        alert("Esto es enero")
+        alert("Esto es marzo")
         break;
     case "4":
-        alert("Esto es enero")
+        alert("Esto es abril")
         break;
     case 5:
         alert("Esto es enero")
