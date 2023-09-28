@@ -59,7 +59,7 @@ function notas() {
 }
 
 // Esta funcion suma DOS numeros y devuelve resultado..
-function sumar( valor1 , valor2 ) {
+function sumar(valor1, valor2) {
     // quizas podamos hacer un chequeo si ambos valores son numeros..
 
     var resultado = valor1 + valor2
@@ -68,6 +68,35 @@ function sumar( valor1 , valor2 ) {
 }
 
 // esta funcion tiene un parametro con valor por defecto
-function multiplicar( valor1, valor2 = 1) {
+function multiplicar(valor1, valor2 = 1) {
     return valor1 * valor2
+}
+
+
+
+// Tenemos que escribir una funcion que calcule las potencias
+// de 2. por ejemplo potenciar(4) -> 4 elevado a la 2.
+// 4 elevado a la 2 es: 4 x 4
+// 5 elevado a la 2 es: 5 x 5
+function potenciar2(valor1) {
+    return valor1 * valor1
+}
+
+function potenciar3(valor1) {
+    return potenciar2(valor1) * valor1
+}
+
+function potenciar4(valor1) {
+    return potenciar3(valor1) * valor1
+}
+
+function potenciar(valor1, veces) {
+
+    var resultados = 1
+
+    for (let index = 0; index < veces; index++) {
+        resultados *= valor1
+        //resultados = resultados * valor1
+    }
+    return resultados
 }
