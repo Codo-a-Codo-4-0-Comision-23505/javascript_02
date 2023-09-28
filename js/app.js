@@ -31,3 +31,16 @@ console.log(ejecutarFuncion( mypotenciar, 4,3) )
 
 
 console.log(ejecutarFuncion( ( valor, veces) => valor ** veces, 4,3) )
+
+
+var myMoto = new Object()
+
+myMoto.marca = "Honda"
+myMoto.modelo = "zr1"
+myMoto.cilindrada = "250"
+myMoto.anio = "2020"
+myMoto.color = "Amarillo furioso"
+myMoto.tipo = "naked"
+
+
+console.log(myMoto.marca);
